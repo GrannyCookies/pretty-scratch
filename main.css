@@ -31,7 +31,9 @@ button {
 	line-height: normal;
 	border-radius: 0;
 	border: none;
-	box-shadow: 0;
+	box-shadow: none;
+	height: 14px;
+	margin-bottom: 4px;
 }
 
 button:hover {
