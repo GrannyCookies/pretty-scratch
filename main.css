@@ -22,6 +22,10 @@ body {
 	padding-left: 15px;
 }
 
+.box .box-head .portrait img {
+	border: none;
+}
+
 button {
 	background: none;
 	color: #d9edf5;
