@@ -1,5 +1,5 @@
 /* Pretty Scratch */
-
+/* all pages */
 body {
 	background: white;
 }
@@ -10,6 +10,11 @@ body {
 	border-radius: 0;
 	box-shadow: none;
 	border-top: none;
+}
+
+::selection {
+    background-color: #71B1FF;
+    color: white;
 }
 
 /* user pages */
