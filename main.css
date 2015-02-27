@@ -66,6 +66,7 @@ body {
 #topnav ul.account-nav .logged-in-user .dropdown-menu {
 	margin-top: 9px;
 	background-color: #3497CA;
+	-webkit-box-shadow: none;
 }
 
 /* user pages */
