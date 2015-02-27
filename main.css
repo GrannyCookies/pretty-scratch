@@ -25,14 +25,17 @@ body {
 
 button {
 	background: none;
-	color: white;
+	color: #d9edf5;
 	text-decoration: none;
 	text-shadow: none;
 	line-height: normal;
 	border-radius: 0;
+	border: none;
+	box-shadow: 0;
 }
 
 button:hover {
+	background: none;
 	text-decoration: underline;
 	cursor: pointer;
 }
