@@ -32,6 +32,11 @@ body {
   	-o-user-select: none;
 }
 
+#topnav .container {
+	width: 80%;
+	min-width: 940px;
+}
+
 #topnav ul.site-nav li {
 	border: none !important;
 	transition: background-color 150ms;
