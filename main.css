@@ -52,7 +52,7 @@ body {
 }
 
 #topnav ul.account-nav ul.user-nav {
-	transition: background-color 150ms;
+	cursor: default;
 }
 
 #topnav ul.account-nav .logged-in-user.dropdown.open {
