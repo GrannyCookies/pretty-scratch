@@ -1,7 +1,18 @@
 /* Pretty Scratch */
 
-.box {
+body {
+	background: white;
+}
+
+.box, .box-content {
 	background: white;
 	border: none;
 	border-radius: 0;
+	box-shadow: none;
+	border-top: none;
+}
+
+/* user pages */
+.doing {
+	border: none;
 }
