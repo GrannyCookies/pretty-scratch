@@ -37,6 +37,10 @@ body {
 	transition: background-color 150ms;
 }
 
+#topnav .logo span {
+	transition: background 150ms;
+}
+
 #topnav ul.account-nav.logged-in>li {
 	border: none;
 	transition: background-color 150ms;
