@@ -25,7 +25,7 @@ body {
 
 button {
 	background: none;
-	color: #1aa0d8;
+	color: white;
 	text-decoration: none;
 	text-shadow: none;
 	line-height: normal;
@@ -33,7 +33,6 @@ button {
 }
 
 button:hover {
-	color: #1aa0d8;
 	text-decoration: underline;
 	cursor: pointer;
 }
