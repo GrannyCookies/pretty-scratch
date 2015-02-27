@@ -69,6 +69,10 @@ body {
 	-webkit-box-shadow: none;
 }
 
+li.logout.divider:hover {
+	background-color: #fe3e34;
+}
+
 /* user pages */
 .doing {
 	border: none;
