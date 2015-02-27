@@ -23,6 +23,24 @@ body {
 }
 
 /* navbar */
+#topnav ul.account-nav>li>span {
+	font-weight: normal;
+}
+
+.join-scratch, #login-dropdown {
+	border: none;
+	transition: background 150ms;
+}
+
+.join-scratch:hover, #login-dropdown:hover {
+	background: #0C6185 !important;
+}
+
+#topnav form.search {
+	margin-top: 6px;
+	position: absolute;
+}
+
 #topnav form.search input {
 	border-radius: 4px;
 	padding-left: 3px;
