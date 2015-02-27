@@ -1,2 +1,2 @@
 # pretty-scratch
-## Styling Scratch
+Scratch- turned flat.
