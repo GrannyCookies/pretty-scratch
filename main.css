@@ -2,6 +2,7 @@
 /* all pages */
 body {
 	background: white;
+	height: auto;
 }
 
 .box, .box-content {
