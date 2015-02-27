@@ -24,16 +24,18 @@ body {
 }
 
 button {
-	background: rgb(229, 229, 229);
-	border: 0;
-	height: 25px;
-	line-height: 25px;
-	color: black;
+	background: none;
+	color: #1aa0d8;
+	text-decoration: none;
+	text-shadow: none;
+	line-height: normal;
+	border-radius: 0;
 }
 
 button:hover {
-	background: rgb(199, 199, 199);
-	color: white;
+	color: #1aa0d8;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 /* navbar */
