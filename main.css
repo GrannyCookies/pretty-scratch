@@ -17,8 +17,13 @@ body {
     color: white;
 }
 
-.galler.thumb.item {
+.gallery.thumb.item {
 	padding-lefT: 15px;
+}
+
+/* navbar */
+#topnav ul.site-nav li {
+	border-left: none;
 }
 
 /* user pages */
