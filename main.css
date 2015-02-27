@@ -26,6 +26,10 @@ body {
 	border-left: none;
 }
 
+#topnav li.last {
+	border-right: none;
+}
+
 /* user pages */
 .doing {
 	border: none;
