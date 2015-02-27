@@ -36,6 +36,28 @@ body {
 	background-color: #3497CA;
 }
 
+#topnav ul.account-nav ul.user-nav li {
+	transition: background-color 150ms;
+}
+
+#topnav ul.account-nav ul.user-nav li:hover {
+	background-color: #3497CA;
+}
+
+#topnav ul.account-nav ul.user-nav {
+	transition: background-color 150ms;
+}
+
+#topnav ul.account-nav .logged-in-user.dropdown {
+	width: 160px;
+}
+
+#topnav ul.account-nav .logged-in-user .dropdown-menu {
+	background-color: #0C6185;
+	margin-top: 9px;
+	
+}
+
 /* user pages */
 .doing {
 	border: none;
