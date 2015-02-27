@@ -22,7 +22,12 @@ body {
 }
 
 /* navbar */
-#topnav ul.site-nav li, #topnav ul.account-nav>li {
+#topnav ul.site-nav li {
+	border-left: none;
+	border-right: none;
+}
+
+#topnav ul.account-nav li {
 	border-left: none;
 	border-right: none;
 }
