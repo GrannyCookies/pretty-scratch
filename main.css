@@ -11,7 +11,6 @@ body {
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
-	border-top: none;
 }
 
 ::selection {
@@ -142,4 +141,15 @@ button:hover {
 /* user pages */
 .doing {
 	border: none;
+}
+
+#profile-box .player {
+	border: none;
+	box-shadow: none;
+}
+
+#profile-box {
+	background: #f9f9f9;
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
 }
