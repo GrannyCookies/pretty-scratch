@@ -17,6 +17,10 @@ body {
     color: white;
 }
 
+.galler.thumb.item {
+	padding-lefT: 15px;
+}
+
 /* user pages */
 .doing {
 	border: none;
