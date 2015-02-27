@@ -3,6 +3,7 @@
 body {
 	background: white;
 	height: auto;
+	text-shadow: 0 !important;
 }
 
 .box, .box-content {
@@ -20,6 +21,19 @@ body {
 
 .gallery.thumb.item {
 	padding-left: 15px;
+}
+
+button {
+	background: rgb(229, 229, 229);
+	border: 0;
+	height: 25px;
+	line-height: 25px;
+	color: black;
+}
+
+button:hover {
+	background: rgb(199, 199, 199);
+	color: white;
 }
 
 /* navbar */
