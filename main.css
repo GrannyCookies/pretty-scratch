@@ -45,12 +45,12 @@ body {
 	transition: background-color 150ms;
 }
 
-#topnav ul.account-nav ul.user-nav li:hover {
-	background-color: #3497CA;
-}
-
 #topnav ul.account-nav ul.user-nav {
 	transition: background-color 150ms;
+}
+
+#topnav ul.account-nav .logged-in-user.dropdown.open {
+	background-color: #3497CA !important;
 }
 
 #topnav ul.account-nav .logged-in-user.dropdown {
@@ -58,9 +58,7 @@ body {
 }
 
 #topnav ul.account-nav .logged-in-user .dropdown-menu {
-	background-color: #0C6185;
 	margin-top: 9px;
-	
 }
 
 /* user pages */
