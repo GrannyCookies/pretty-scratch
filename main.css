@@ -18,16 +18,22 @@ body {
 }
 
 .gallery.thumb.item {
-	padding-lefT: 15px;
+	padding-left: 15px;
 }
 
 /* navbar */
 #topnav ul.site-nav li {
 	border: none !important;
+	transition: background-color 150ms;
 }
 
 #topnav ul.account-nav.logged-in>li {
 	border: none;
+	transition: background-color 150ms;
+}
+
+#topnav .innerwrap {
+	background-color: #3497CA;
 }
 
 /* user pages */
