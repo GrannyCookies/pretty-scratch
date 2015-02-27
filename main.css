@@ -23,6 +23,15 @@ body {
 }
 
 /* navbar */
+#topnav form.search input {
+	border-radius: 4px;
+	padding-left: 3px;
+}
+
+#topnav form.search .glass {
+	display: none;
+}
+
 #topnav {
 	box-shadow: none;
 	user-select: none;
@@ -33,7 +42,7 @@ body {
 }
 
 #topnav .container {
-	width: 80%;
+	width: 70%;
 	min-width: 940px;
 }
 
