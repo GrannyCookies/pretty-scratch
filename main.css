@@ -22,6 +22,10 @@ body {
 }
 
 /* navbar */
+#topnav {
+	box-shadow: none;
+}
+
 #topnav ul.site-nav li {
 	border: none !important;
 	transition: background-color 150ms;
