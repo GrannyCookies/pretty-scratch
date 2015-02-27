@@ -22,11 +22,8 @@ body {
 }
 
 /* navbar */
-#topnav li {
+#topnav ul.site-nav li, #topnav ul.account-nav>li {
 	border-left: none;
-}
-
-#topnav li.last {
 	border-right: none;
 }
 
