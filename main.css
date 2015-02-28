@@ -54,7 +54,7 @@ button:hover {
 	display: block;
 	visibility: hidden;
 	opacity: 0;
-	transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+	transition: visibility 0s linear 150ms, opacity 150ms linear;
 }
 
 .dropdown.open .dropdown-menu {
