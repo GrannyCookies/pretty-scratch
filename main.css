@@ -19,6 +19,10 @@ body.editor .showcase {
 	text-shadow: none;
 }
 
+#comments .highlighted {
+	background-color: white;
+}
+
 #footer {
 	box-shadow: none;
 }
