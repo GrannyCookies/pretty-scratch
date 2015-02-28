@@ -221,11 +221,7 @@ img {
 }
 
 /* project pages */
-.editable-empty {
-	border: none !important;
-}
-
-.editable {
+.editable:hover, .editable.write, .editable, .editable-empty {
 	border: none !important;
 }
 
