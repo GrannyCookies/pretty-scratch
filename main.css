@@ -170,6 +170,11 @@ body.editor .showcase {
 	background: #f9f9f9;
 }
 
+#profile-data .footer #report-this:hover {
+	color: #d82f2f;
+	text-decoration: underline;
+}
+
 /* project pages */
 .showcase .info {
 	border-left: none;
@@ -184,7 +189,8 @@ body.editor .showcase {
 	border: none;
 	border-radius: 0;
 	background: #3497CA;
-	transition: background 150ms;
+	transition: background 150ms, color 150ms;
+	text-shadow: none;
 }
 
 .button:hover {
@@ -197,6 +203,7 @@ body.editor .showcase {
 
 .button.grey:hover {
 	background: #999;
+	color: white;
 }
 
 .button#see-inside {
