@@ -208,6 +208,7 @@ body.editor .showcase {
 
 .button#load-scratchext-1 {
 	margin: 0;
+	margin-left: -4px;
 }
 
 .button#see-inside {
