@@ -3,7 +3,7 @@
 header("Access-Control-Allow-Origin: *");
 header('Content-Type: text/css');
 
-$url = 'https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/master/main.css';
+$url = 'https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/main.css';
 
 echo file_get_contents($url);
 ?>
