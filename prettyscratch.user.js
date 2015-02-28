@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pretty Scratch
 // @namespace    https://github.com/GrannyCookies/pretty-scratch
-// @version      0.1
+// @version      0.2
 // @description  Prettifies Scratch
 // @author       GrannyCookies
 // @match        http://scratch.mit.edu/*
