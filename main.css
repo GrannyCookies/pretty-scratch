@@ -6,7 +6,7 @@ body {
 	text-shadow: 0 !important;
 }
 
-.showcase {
+body.editor .showcase {
 	position: absolute;
 }
 
