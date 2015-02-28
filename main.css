@@ -18,6 +18,10 @@ body.editor .showcase {
 	text-shadow: none;
 }
 
+img {
+	border: none !important;
+}
+
 .button:hover {
 	background: #0c6185;
 }
