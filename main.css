@@ -257,7 +257,7 @@ img {
 }
 
 .action a.remix-tree {
-	border: none;
+	border: none !important;
 	box-shadow: none;
 	background: none !important;
 }
