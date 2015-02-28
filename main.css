@@ -242,3 +242,7 @@ img {
 	box-shadow: none;
 	background: none !important;
 }
+
+.box-head .wip {
+	display: none;
+}
