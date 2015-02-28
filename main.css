@@ -246,3 +246,11 @@ img {
 .box-head .wip {
 	display: none;
 }
+
+#explore-header {
+	background: rgb(71, 71, 71);
+}
+
+.carousel-control {
+	transition: opacity 150ms;
+}
