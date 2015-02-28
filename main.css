@@ -275,7 +275,7 @@ img {
 }
 
 #explore-header {
-	background: rgb(71, 71, 71);
+	background: rgb(71, 71, 71) !important;
 }
 
 .carousel-control {
