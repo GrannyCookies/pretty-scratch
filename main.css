@@ -1,7 +1,5 @@
 /* Pretty Scratch */
 
-/* FORCEUP */
-
 /* all pages */
 body {
 	background: white;
@@ -19,6 +17,10 @@ body.editor .showcase {
 	background: #3497CA;
 	transition: background 150ms, color 150ms;
 	text-shadow: none;
+}
+
+#footer {
+	box-shadow: none;
 }
 
 img {
