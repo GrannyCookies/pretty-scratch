@@ -23,6 +23,17 @@ body.editor .showcase {
 	background-color: white;
 }
 
+#comments .comments ul li {
+	border-top: none;
+}
+
+#comments .more-replies {
+	box-shadow: none;
+	border-top: none;
+	margin-top: 0;
+	height: 25px;
+}
+
 #footer {
 	box-shadow: none;
 }
