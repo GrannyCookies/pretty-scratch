@@ -221,6 +221,14 @@ img {
 }
 
 /* project pages */
+.editable-empty {
+	border: none !important;
+}
+
+.editable {
+	border: none !important;
+}
+
 .showcase .info {
 	border-left: none;
 }
