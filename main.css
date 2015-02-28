@@ -147,8 +147,18 @@ button:hover {
 }
 
 /* user pages */
+#bio-readonly, #status-readonly {
+	height: 110px;
+}
+
 .doing {
 	border: none;
+	border-left: none;
+}
+
+#featured-project img {
+	height: initial;
+	width: 290px;
 }
 
 #profile-box .player {
