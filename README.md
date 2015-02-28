@@ -1,7 +1,7 @@
 # Pretty Scratch
 Scratch- for the better.
 
-Pretty Scratch is pure CSS, and subtly changes the Scratch site to make it easier on the eyes, and more appealing.
+Pretty Scratch subtly changes the Scratch site to make it easier on the eyes and makes it more appealing.
 Install it temporarilly and see for yourself.
 If you don't like it you can always delete the style :)
 
