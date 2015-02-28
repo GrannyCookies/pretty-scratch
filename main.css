@@ -38,6 +38,10 @@ body.editor .showcase {
 	height: 25px;
 }
 
+#comments .more-replies .pulldown {
+	border: none;
+}
+
 #footer {
 	box-shadow: none;
 }
