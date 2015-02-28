@@ -166,7 +166,7 @@ button:hover {
 
 .doing {
 	border: none;
-	border-left: none;
+	border-left: none !important;
 }
 
 #featured-project img {
