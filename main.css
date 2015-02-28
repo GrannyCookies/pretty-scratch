@@ -11,6 +11,10 @@ body.editor .showcase {
 	position: absolute;
 }
 
+#footer {
+	height: 23em;
+}
+
 .button {
 	border: none;
 	border-radius: 0;
