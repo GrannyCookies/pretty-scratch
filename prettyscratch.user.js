@@ -10,14 +10,14 @@
 
 installCSS = function(url) {
     var link = window.document.createElement('link');
-    link.href = url;
+    link.href = url + '?d=' + new Date();
     link.rel = 'stylesheet';
     document.getElementsByTagName("HEAD")[0].appendChild(link);
 };
 
 installJS = function(url) {
     var link = window.document.createElement('script');
-    link.src = url;
+    link.src = url + '?d=' + new Date();
     document.getElementsByTagName("HEAD")[0].appendChild(link);
 };
 
