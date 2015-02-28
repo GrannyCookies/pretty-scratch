@@ -6,6 +6,10 @@ body {
 	text-shadow: 0 !important;
 }
 
+.showcase {
+	position: absolute;
+}
+
 .box, .box-content {
 	background: white;
 	border: none;
