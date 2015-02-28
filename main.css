@@ -28,7 +28,7 @@ body.editor .showcase {
 }
 
 #comments .comments ul li {
-	border-top: none;
+	border-top: none !important;
 }
 
 #comments .more-replies {
