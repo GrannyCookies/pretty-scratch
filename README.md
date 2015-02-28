@@ -7,7 +7,7 @@ If you don't like it you can always delete the style :)
 
 ## How to install
 Using [Stylish](https://userstyles.org/), create a new style for the domain "scratch.mit.edu" and put this code in it.
-```haxe
+```
 @import url("http://scratchextproxy.x10.mx/pretty-scratch.php");
 ```
 See [this](http://prntscr.com/6akfud) for an example.
