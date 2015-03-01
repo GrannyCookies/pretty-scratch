@@ -13,7 +13,6 @@ function doPrettyScratch() {
   $('#comments .comment .info .content').linkify();
   $('textarea').linkify();
   $('.overview').linkify();
-  $('textarea').linkify();
   
   // remove dodgey stuff on the forums
   $('.djangobb .box-head a.toggle').remove();
