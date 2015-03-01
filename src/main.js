@@ -11,7 +11,6 @@ window.onload = function() {
 function doPrettyScratch() {
   // linkify stuff
   $('#comments .comment .info .content').linkify();
-  $('textarea').linkify();
   $('.overview').linkify();
   
   // remove dodgey stuff on the forums
