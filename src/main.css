@@ -11,6 +11,15 @@ body.editor .showcase {
 	position: absolute;
 }
 
+.scrollbar .track {
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.scrollbar.handle {
+	border-radius: 0 !important;
+}
+
 #footer {
 	height: 23em;
 }
