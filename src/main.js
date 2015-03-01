@@ -24,7 +24,8 @@ function doPrettyScratch() {
   // add "link to this" button on comments
   $('.comment').each(function() {
     var linkto = window.location.href + '#' + $(this).attr('id');
-    console.log(linkto);
+    var span = '<span class="actions report" onclick="window.location = ' + linkto + '">Link to this</span>';
+    $(this).children('actions-wrap').append(span);
   });
 }
 
