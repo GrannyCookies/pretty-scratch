@@ -33,10 +33,10 @@ function doPrettyScratch() {
   // emojii
   doEmoji();
   
-  // add "link to this" button on comments
+  // add "link to this comment" button
   $('.comment').not('.linked').each(function() {
     var linkto = window.location.href + '#' + $(this).attr('id');
-    var span = '<span class="actions report" onclick="window.location = \'' + linkto + '\';window.location.reload();">Link to this</span>';
+    var span = '<span class="actions report" onclick="setClipboard(\'' + linkto + '\');$(this).html(\'Copied to clipboard\');">Link to this</span>';
     $(this).children('.actions-wrap').append(span);
     $(this).addClass('linked');
   });
