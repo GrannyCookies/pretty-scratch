@@ -9,35 +9,35 @@ window.onload = function() {
   // news icon overrider
   // "New SDS" icon
   var oldSRC = "https://31.media.tumblr.com/d99a1da959f7d077d266580842a8d3f4/tumblr_inline_n6jlk1ULuG1szpavb.png";
-  var newSRC = "";
+  var newSRC = "https://github.com/GrannyCookies/pretty-scratch/blob/gh-pages/newsicons/newsds.png?raw=true";
   if(newSRC !== "") {
     $('img[src="' + oldSRC + '"]').attr('src', newSRC);
   }
   
   // "Shouting Scratch Cat" icon
   var oldSRC = "https://31.media.tumblr.com/5d3dca2587258b7940f5f18fb35ed34d/tumblr_inline_n0lc2mksfH1szpavb.png";
-  var newSRC = "";
+  var newSRC = "https://github.com/GrannyCookies/pretty-scratch/blob/gh-pages/newsicons/Catwithairhorn.png?raw=true";
   if(newSRC !== "") {
     $('img[src="' + oldSRC + '"]').attr('src', newSRC);
   }
   
   // "Speech Bubble" icon
   var oldSRC = "https://31.media.tumblr.com/695b93f4ab74c68feaef1fe03baebdd5/tumblr_inline_n0xubtT0vU1szpavb.png";
-  var newSRC = "";
+  var newSRC = "https://github.com/GrannyCookies/pretty-scratch/blob/gh-pages/newsicons/speechbubble.png?raw=true";
   if(newSRC !== "") {
     $('img[src="' + oldSRC + '"]').attr('src', newSRC);
   }
   
   // "Tera" icon
   var oldSRC = "https://31.media.tumblr.com/73906c6bf7b31e453220704a1e3c272c/tumblr_inline_n0ygefh6Ty1szpavb.png";
-  var newSRC = "";
+  var newSRC = "https://github.com/GrannyCookies/pretty-scratch/blob/gh-pages/newsicons/tera.png?raw=true";
   if(newSRC !== "") {
     $('img[src="' + oldSRC + '"]').attr('src', newSRC);
   }
   
   // "Gobo" icon
   var oldSRC = "http://media.tumblr.com/bcf1c019712b4c87765ed76c89d9eb93/tumblr_inline_mp2ofqTDF51qz4rgp.png";
-  var newSRC = "";
+  var newSRC = "https://github.com/GrannyCookies/pretty-scratch/blob/gh-pages/newsicons/gobo.png?raw=true";
   if(newSRC !== "") {
     $('img[src="' + oldSRC + '"]').attr('src', newSRC);
   }
