@@ -16,6 +16,21 @@ function doPrettyScratch() {
   
   // override news icons
   newsIcons();
+  
+  // emojii
+  doEmoji();
+}
+
+// add emoji
+function doEmoji() {
+  $('#comments .comment .info .content').each(function() {
+    var text = $(this).html();
+    
+    // :P
+    text = text.replace(':P', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/tounge.png">');
+    
+    $(this).html(text);
+  });
 }
 
 function newsIcons() {
