@@ -15,6 +15,13 @@ body.editor .showcase {
 	height: 23em;
 }
 
+.ps-emoji {
+	line-height: 24px;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+
 .button {
 	border: none;
 	border-radius: 0;
