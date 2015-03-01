@@ -28,7 +28,7 @@ function doEmoji() {
   var image = ['tounge', 'aww', 'smile', 'happy', 'cool', 'er', 'speechless', 'whistle', 'straight', 'what', 'youdontsay', 'wink'];
   
   $('#comments .comment .info .content').each(function() {
-    var text = $(this).text();
+    var text = $(this).html();
     var i = 0;
     while(i<=emoji.length) {
       text = text.replace(emoji[i] + ' ', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/' + image[i] + '.png" class="ps-emoji">');
