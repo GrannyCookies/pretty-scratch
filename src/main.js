@@ -20,6 +20,12 @@ function doPrettyScratch() {
   
   // emojii
   doEmoji();
+  
+  // add "link to this" button on comments
+  $('.comment').each(function() {
+    var linkto = window.location.href + '#' + $(this).attr('id');
+    console.log(linkto);
+  });
 }
 
 // add emoji
