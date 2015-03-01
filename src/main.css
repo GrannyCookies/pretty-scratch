@@ -4,7 +4,7 @@
 body {
 	background: white;
 	height: auto;
-	text-shadow: 0 !important;
+	text-shadow: none !important;
 }
 
 body.editor .showcase {
@@ -13,6 +13,17 @@ body.editor .showcase {
 
 #footer {
 	height: 23em;
+}
+
+.ps-update {
+	position: absolute;
+	height: 50px;
+	text-align: center;
+	top: 35px;
+	width: 100%;
+	line-height: 50px;
+	background-color: #3497CA;
+	color: white;
 }
 
 .ps-emoji {
