@@ -20,6 +20,11 @@ body.editor .showcase {
 	border-radius: 0 !important;
 }
 
+.scrollbar .thumb {
+	cursor: n-resize;
+	border-radius: 0 !important;
+}
+
 #footer {
 	height: 23em;
 }
