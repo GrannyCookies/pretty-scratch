@@ -1,4 +1,5 @@
 if(typeof prettyScratchVer === "undefined" || prettyScratchVer !== 1.0) {
+  console.debug('PS Update!');
   window.onload = function() {
     // prettyscratch update required!
     $('#content').css('padding-top', '100px');
