@@ -35,7 +35,7 @@ body.editor .showcase {
 	width: 10px;
 }
 
-.viewport::-webkit-scrollbar, textarea::-webkit-scrollbar {
+.viewport::-webkit-scrollbar, textarea::-webkit-scrollbar, .overview::-webkit-scrollbar {
 	box-shadow: none;
 	border-radius: 0;
 	background-color: #eee;
