@@ -34,7 +34,7 @@ function doPrettyScratch() {
 // add emoji
 function doEmoji() {
   var emoji = [':P', '&gt;:(', ':)', ':D', '8)', ' :/', ':3', ':|', ':O', '-_-', ';)', 'xD', 'XD', 'D:&lt;', ':(', 'O:)', 'O:-)', ':o', ':-?', ':?', 'D:', ';P'];
-  var image = ['tounge', 'angry', 'smile', 'happy', 'cool', 'er', 'whistle', 'straight', 'oug', 'youdontsay', 'wink', 'xd', 'xd', 'killer', 'aww', 'angle', 'angle', 'speechless', 'speechless', 'urg', 'XP'];
+  var image = ['tounge', 'angry', 'smile', 'happy', 'cool', 'er', 'whistle', 'straight', 'oug', 'youdontsay', 'wink', 'xd', 'xd', 'killer', 'aww', 'angle', 'angle', 'what', 'speechless', 'speechless', 'urg', 'XP'];
   
   $('#comments .comment .info .content').each(function() {
     var text = $(this).html();
