@@ -25,9 +25,11 @@ function doPrettyScratch() {
 function doEmoji() {
   $('#comments .comment .info .content').each(function() {
     var text = $(this).html();
-    
-    // :P
-    text = text.replace(':P', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/tounge.png">');
+
+    text = text.replace(':P', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/tounge.png" class="ps-emoji">');
+    text = text.replace(':(', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/aww.png" class="ps-emoji">');
+    text = text.replace(':)', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/smile.png" class="ps-emoji">');
+    text = text.replace(':D', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/happy.png" class="ps-emoji">');
     
     $(this).html(text);
   });
