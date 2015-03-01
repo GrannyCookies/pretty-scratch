@@ -22,10 +22,11 @@ function doPrettyScratch() {
   doEmoji();
   
   // add "link to this" button on comments
-  $('.comment').each(function() {
+  $('.comment').not('.linked').each(function() {
     var linkto = window.location.href + '#' + $(this).attr('id');
     var span = '<span class="actions report" onclick="window.location = ' + linkto + '">Link to this</span>';
     $(this).children('actions-wrap').append(span);
+    $(this).addClass('linked');
   });
 }
 
