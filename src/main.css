@@ -18,11 +18,17 @@ body.editor .showcase {
 
 .scrollbar.handle {
 	border-radius: 0 !important;
+	transition: top 100ms;
 }
 
 .scrollbar .thumb {
 	cursor: n-resize;
 	border-radius: 0 !important;
+	transition: top 100ms;
+}
+
+.overview {
+	transition: top 100ms;
 }
 
 #footer {
