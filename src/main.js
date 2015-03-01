@@ -48,7 +48,9 @@ window.onload = function() {
         text = text.replace(emoji[i], '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/' + image[i] + '.png" class="ps-emoji">');
         i++;
       }
-      $(this).html(text);
+      try {
+        $(this).html(text);
+      } catch(e) {}
     });
   }
   
