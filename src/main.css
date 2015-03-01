@@ -15,7 +15,7 @@ body.editor .showcase {
 	height: 23em;
 }
 
-.ps-update {
+#ps-update {
 	position: absolute;
 	height: 50px;
 	text-align: center;
