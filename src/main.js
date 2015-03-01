@@ -3,9 +3,22 @@ window.onload = function() {
   
   // linkify comments
   setInterval(function() {
-    $('#comments .comment .info .content').linkify();
+    doPrettyScratch();
   }, 2000);
+};
+
+function doPrettyScratch() {
+  // linkify stuff
+  $('#comments .comment .info .content').linkify();
   
+  // remove dodgey stuff on the forums
+  $('.djangobb .box-head a.toggle').remove();
+  
+  // override news icons
+  newsIcons();
+}
+
+function newsIcons() {
   // news icon overrider
   // "New SDS" icon
   var oldSRC = "https://31.media.tumblr.com/d99a1da959f7d077d266580842a8d3f4/tumblr_inline_n6jlk1ULuG1szpavb.png";
@@ -41,4 +54,4 @@ window.onload = function() {
   if(newSRC !== "") {
     $('img[src="' + oldSRC + '"]').attr('src', newSRC);
   }
-};
+}
