@@ -11,6 +11,9 @@ window.onload = function() {
 function doPrettyScratch() {
   // linkify stuff
   $('#comments .comment .info .content').linkify();
+  $('textarea').linkify();
+  $('.overview').linkify();
+  $('textarea').linkify();
   
   // remove dodgey stuff on the forums
   $('.djangobb .box-head a.toggle').remove();
