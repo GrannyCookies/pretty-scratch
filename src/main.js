@@ -1,4 +1,4 @@
-if(prettyScratchVer === undefined || prettyScratchVer !== 1.0) {
+if(typeof prettyScratchVer === "undefined" || prettyScratchVer !== 1.0) {
   // prettyscratch update required!
   $('#content').css('padding-top', '100px');
   $('body').append('<div id="ps-update">Hello there! Just to let you know, <a href="https://github.com/GrannyCookies/pretty-scratch"> needs to update. <a href="http://grannycookies.github.io/pretty-scratch/">Click here</a> to update!</div>')
