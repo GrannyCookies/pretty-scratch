@@ -16,7 +16,7 @@ body.editor .showcase {
 }
 
 .ps-emoji {
-	line-height: 24px;
+	margin-bottom: 4px;
 	vertical-align: middle;
 	width: 20px;
 	height: 20px;
