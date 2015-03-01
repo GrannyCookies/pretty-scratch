@@ -45,12 +45,14 @@ window.onload = function() {
       var text = $(this).html();
       var i = 0;
       while(i<=emoji.length) {
-        text = text.replace(emoji[i], '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/' + image[i] + '.png" class="ps-emoji">');
+        if('<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/' + image[i] + '.png" class="ps-emoji">' !== 'https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/%3Cimg%20src=') {
+          text = text.replace(emoji[i], '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/' + image[i] + '.png" class="ps-emoji">');
+        } else {
+          console.debug(':(');
+        }
         i++;
       }
-      try {
-        $(this).html(text);
-      } catch(e) {}
+      $(this).html(text);
     });
   }
   
