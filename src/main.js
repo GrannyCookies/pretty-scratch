@@ -23,14 +23,16 @@ function doPrettyScratch() {
 
 // add emoji
 function doEmoji() {
+  var emoji = [':P', ':(', ':)', ':D', '8)', ':/', ':o', ':3', ':|', ':O', '-_-', ';)'];
+  var image = ['tounge', 'aww', 'smile', 'happy', 'cool', 'er', 'speechless', 'whistle', 'straight', 'what', 'youdontsay', 'wink'];
+  
   $('#comments .comment .info .content').each(function() {
     var text = $(this).html();
-
-    text = text.replace(':P', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/tounge.png" class="ps-emoji">');
-    text = text.replace(':(', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/aww.png" class="ps-emoji">');
-    text = text.replace(':)', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/smile.png" class="ps-emoji">');
-    text = text.replace(':D', '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/happy.png" class="ps-emoji">');
-    
+    var i = 0;
+    while(i<=emoji.length) {
+      text = text.replace(emoji[i], '<img src="https://raw.githubusercontent.com/GrannyCookies/pretty-scratch/gh-pages/emoji/' + image[i] + '.png" class="ps-emoji">');
+      i++;
+    }
     $(this).html(text);
   });
 }
