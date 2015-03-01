@@ -16,13 +16,13 @@ body.editor .showcase {
 }
 
 #ps-update {
-	position: absolute;
+	position: fixed;
 	height: 50px;
 	text-align: center;
 	top: 35px;
 	width: 100%;
 	line-height: 50px;
-	background-color: #3497CA;
+	background-color: #155A7E;
 	color: white;
 }
 
