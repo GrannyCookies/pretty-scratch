@@ -32,12 +32,14 @@ body.editor .showcase {
 	border-radius: 0 !important;
 	transition: top 100ms;
 	background-color: #666;
+	width: 10px;
 }
 
 .viewport::-webkit-scrollbar, textarea::-webkit-scrollbar {
 	box-shadow: none;
 	border-radius: 0;
 	background-color: #eee;
+	width: 10px;
 }
 
 .overview {
