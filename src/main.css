@@ -22,9 +22,22 @@ body.editor .showcase {
 }
 
 .scrollbar .thumb {
-	cursor: n-resize;
+	cursor: default;
 	border-radius: 0 !important;
 	transition: top 100ms;
+}
+
+.viewport::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb {
+	cursor: default;
+	border-radius: 0 !important;
+	transition: top 100ms;
+	background-color: #666;
+}
+
+.viewport::-webkit-scrollbar, textarea::-webkit-scrollbar {
+	box-shadow: none;
+	border-radius: 0;
+	background-color: #eee;
 }
 
 .overview {
