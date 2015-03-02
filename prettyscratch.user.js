@@ -3,7 +3,7 @@
 // @namespace    https://github.com/GrannyCookies/pretty-scratch
 // @version      1.0
 // @description  Prettifies Scratch
-// @author       GrannyCookies
+// @author       GrannyCookies and easyScratcher
 // @match        http://scratch.mit.edu/*
 // @grant		 GM_setClipboard
 // @grant    	 unsafeWindow
