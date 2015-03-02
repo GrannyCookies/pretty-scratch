@@ -11,7 +11,7 @@ window.onload = function() {
   doPrettyScratch();
   prettyScratch = setInterval(function() {
     doPrettyScratch();
-  }, 500);
+  }, 5000);
   
   function doPrettyScratch() {
     // linkify stuff
