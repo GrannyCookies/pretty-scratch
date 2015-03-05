@@ -7,6 +7,10 @@ body {
 	text-shadow: none !important;
 }
 
+.tabs .tabs-index li {
+	transition: 250ms border;
+}
+
 body.editor .showcase {
 	position: absolute;
 }
