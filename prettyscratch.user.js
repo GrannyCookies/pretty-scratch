@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Prettifies Scratch
 // @author       GrannyCookies and easyScratcher
-// @match        http://scratch.mit.edu/*
+// @match        https://scratch.mit.edu/*
 // @grant		 GM_setClipboard
 // @grant    	 unsafeWindow
 // @run-at		 document-start
